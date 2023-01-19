@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.logo{
+  width: 100px;
+  padding: 10px;
+}
+
+.nav {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav ul{
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0 23px;
+}
