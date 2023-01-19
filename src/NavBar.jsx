@@ -1,19 +1,18 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import HelloWorld from './pages/HelloWorld';
-import Contact from './pages/Contact';
-import Vehicules from './pages/Vehicules';
 
 export default function NavBar() {
   return (
     <nav className="nav">
-    <img className="logo" src="https://upload.wikimedia.org/wikipedia/en/c/c6/BRP_inc_logo.svg" alt="brp"></img>
+      <a href="/helloworld">
+    <img className="logo" src="house-256.png" alt="brp"></img>
+    </a>
     <ul>
       <li>
-      <NavLink to='/contact'>Contact</NavLink>
+      <NavLink to='/vehicules'> <div className='linkBox'> Vehicles </div></NavLink>
       </li>
       <li>
-      <NavLink to='/vehicules'>Vehicules</NavLink>
+      <NavLink to='/contact'><div className='linkBox'> Contact </div></NavLink>
       </li>
     </ul>
   </nav>

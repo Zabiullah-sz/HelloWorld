@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <>
     <NavBar />
-    <h1>Contact</h1>
+    <h1>If you have any questions, please contact zabiullah.shairzaie@brp.com</h1>
     </>
   )
 }
