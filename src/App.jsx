@@ -11,7 +11,6 @@ function App() {
   return(
     <Routes>
     <Route path='/' element={<HelloWorld />} />
-    <Route path='/helloworld' element={<HelloWorld />} />
     <Route path='/contact' element={<Contact />} />
     <Route path='/vehicules' element={<Vehicules />} />
   </Routes>
